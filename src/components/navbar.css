@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    z-index: 1;
+  }
+  .container{
+    display:flex;
+  flex-direction: column; 
+  margin:-12px;
+    
+  }
+
+  .seminavbar{ 
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans-serif;
+
+    position: sticky;
+    display: flex;
+    width:100%;
+    margin-top: 0;
+    background-color: red;
+    padding:12px;
+    font-size:20px;
+  
+  }
+  main{
+    width: 100%;
+    z-index: 3;
+    padding: 40px;
+    margin:0px;
+  }
+  .sidebar {
+z-index: 3;
+    height: 100vh;
+   position: fixed;
+  top: 0;
+  left: 0;
+color: red;
+    background-color: red;
+    color: #fff;
+    height: 200vh;
+    width: 200px;
+    transition: all 0.5s;
+    margin: 0px;
+    padding:0px; 
+  }
+  
+  .top-section{
+    /* display: flex;
+    width:100%;
+    flex-direction:column; */
+
+     align-items:center; 
+    padding:60px 14px;
+    
+  }
+  .hu{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQrujp1hEPzqn4g6box7ixjHQQDb-qEGzmIA&usqp=CAU);
+    size:24px;
+    color:white;
+    mix-blend-mode: color-burn;
+  }
+  .logo{
+    color:white;
+    font-size: 24px;
+    margin-top:2px;
+    margin-left:80%; } 
+   */
+  .bars{
+    /* display: flex;
+    flex-direction: row;
+; */
+margin-top: -62px;
+    padding: 60px 10px;
+    gap: 10px;
+    font-size:30px;
+  }.tsveer{
+    font-size: 24px;
+    margin-top:12px;
+    margin-left:10px;
+    padding: 0;
+  }
+  .link{
+    font-family: Impact, Haettenschweiler, Franklin Gothic Bold, Charcoal, Helvetica Inserat, Bitstream Vera Sans Bold, Arial Black, sans-serif;
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+    padding: 55px 10px;
+    gap: 15px;
+    transition: all 0.5s;
+  }
+  .link:hover{
+    background:rgb(88, 24, 24);
+    color: #8d1e1e;
+    transition: all 0.5s;
+  }
+  .active{
+    background:rgb(88, 24, 24);
+    color: #fff;
+    margin-right:0%;
+  }
+  .icon, .link_text{
+    font-size: 24px;
+    color:#fff;
+  } 
+  /* Add this media query at the end of your CSS file */
+
+  @media only screen and (max-width: 1000px) {
+.bars{
+  display:none;
+
+}
+.logo{
+  size: small;
+}
+.sidebar {
+
+  width: 100%;
+  
+top: 0;
+left: 0;}
+
+.icon, .link_text{
+  font-size: 14px;
+} 
+  }
+  
+
